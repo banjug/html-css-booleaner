@@ -1,7 +1,7 @@
 /* sezione css header  */
 
 .header-img {
-    height: 100px;
+    height: 150px;
     background-image: url('../img/pattern.png');
     background-color: rgb(78, 160, 255);
     background-size: 20%;
@@ -10,3 +10,41 @@
 #logo {
     width: 200px;
 }
+
+/* sezione titolo */
+
+.sezione-titolo {
+    margin-bottom: 20px;
+}
+
+.titolo {
+    font-size: 50px;
+    margin: 0;
+}
+
+.scritto-da {
+    font-size: 15px;
+    margin: 0;
+    color: gray;
+}
+
+#autore-articolo {
+    color: rgb(78, 160, 255);
+}
+
+.data-articolo {
+    font-size: 10px;
+    margin: 0;
+    color: gray;
+}
+
+/* sezione foto  */
+
+.didascalia-foto {
+    margin: 0;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+/* sezione articolo  */
+
