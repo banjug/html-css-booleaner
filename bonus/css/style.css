@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    margin: 0 auto;
+}
+
+/* sezione css header  */
+
+header {
+    width: 100%;
+
+}
+
+.header-img {
+    height: 150px;
+    background-image: url('../img/pattern.png');
+    background-color: rgb(78, 160, 255);
+    background-size: 20%;
+}
+
+.logo-container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#logo {
+    width: 200px;
+    padding-top: 90px;
+}
+
+main, footer {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* sezione titolo */
+
+.sezione-titolo {
+    margin-bottom: 20px;
+}
+
+.titolo-articolo {
+    font-size: 50px;
+    margin: 25px 0 0;
+}
+
+.sottotitolo {
+    font-size: 20px;
+    margin: 0;
+    color: gray;
+}
+
+#autore-articolo {
+    color: rgb(78, 160, 255);
+}
+
+.didascalia {
+    font-size: 15px;
+    margin: 0;
+    color: gray;
+    font-weight: lighter;
+}
+
+/* sezione articolo  */
+
+.sezione-articolo {
+    margin-bottom: 40px;
+}
+
+.evidenziato {
+    background-color: yellow;
+}
+
+
+.tabella {
+border-spacing: 0;
+margin: 30px 0;
+}
+
+.intestazione-tabella {
+    background-color: rgb(78, 160, 255);
+    color: white;
+    text-align: left;
+}
+
+.riga-blu-colonna {
+    background-color: rgb(178, 230, 242);
+}
+
+.width1 {
+    width: 25%;
+}
+
+.width2 {
+    width: 50%;
+}
+
+/* sezione footer  */
+
+footer div {
+    margin: 20px 0;
+    padding: 15px;
+    width: 311px;
+    height: 207px;
+}
+
+.titolo-articolo-consigliato {
+    color: white;
+    font-weight: bold;
+}
+
+.articolo-consigliato-1 {
+    background-image: url('../img/monitor.jpg');
+}
+
+.articolo-consigliato-2 {
+    background-image: url('../img/graph.jpg');
+}
