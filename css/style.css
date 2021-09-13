@@ -17,12 +17,12 @@
     margin-bottom: 20px;
 }
 
-.titolo {
+.titolo-articolo {
     font-size: 50px;
-    margin: 0;
+    margin: 25px 0 0;
 }
 
-.scritto-da {
+.sottotitolo {
     font-size: 15px;
     margin: 0;
     color: gray;
@@ -32,19 +32,43 @@
     color: rgb(78, 160, 255);
 }
 
-.data-articolo {
+.didascalia {
     font-size: 10px;
     margin: 0;
     color: gray;
-}
-
-/* sezione foto  */
-
-.didascalia-foto {
-    margin: 0;
-    font-size: 15px;
     font-weight: lighter;
 }
 
 /* sezione articolo  */
 
+.sezione-articolo {
+    margin-bottom: 40px;
+}
+
+.evidenziato {
+    background-color: yellow;
+}
+
+
+.tabella {
+border-spacing: 0;
+margin: 30px 0;
+}
+
+.intestazione-tabella {
+    background-color: rgb(78, 160, 255);
+    color: white;
+    text-align: left;
+}
+
+.riga-blu-colonna {
+    background-color: rgb(178, 230, 242);
+}
+
+.width1 {
+    width: 25%;
+}
+
+.width2 {
+    width: 50%;
+}
