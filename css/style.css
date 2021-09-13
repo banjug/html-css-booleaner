@@ -1,0 +1,11 @@
+/* sezione css header  */
+
+.header-img {
+    height: 100px;
+    background-image: url('../img/pattern.png');
+    background-color: rgb(78, 160, 255);
+}
+
+#logo {
+    width: 200px;
+}
