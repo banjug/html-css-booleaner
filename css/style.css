@@ -56,6 +56,8 @@
 
 
 .tabella {
+    
+/* border-spacing toglie i bordi bianchi tra le celle */
 border-spacing: 0;
 margin: 30px 0;
 }

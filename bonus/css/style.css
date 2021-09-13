@@ -9,11 +9,6 @@ body {
 
 /* sezione css header  */
 
-header {
-    width: 100%;
-
-}
-
 .header-img {
     height: 150px;
     background-image: url('../img/pattern.png');
@@ -21,7 +16,8 @@ header {
     background-size: 20%;
 }
 
-.logo-container {
+/* questo restringe la colonna di contenuto e la centra nella pagina  */
+main, footer, .logo-container {
     width: 1000px;
     margin: 0 auto;
 }
@@ -29,11 +25,6 @@ header {
 #logo {
     width: 200px;
     padding-top: 90px;
-}
-
-main, footer {
-    width: 1000px;
-    margin: 0 auto;
 }
 
 /* sezione titolo */
@@ -64,6 +55,10 @@ main, footer {
     font-weight: lighter;
 }
 
+.sezione-foto, .img-articolo {
+    margin-bottom: 20px;
+}
+
 /* sezione articolo  */
 
 .sezione-articolo {
@@ -76,6 +71,8 @@ main, footer {
 
 
 .tabella {
+
+/* border-spacing toglie i bordi bianchi tra le celle */
 border-spacing: 0;
 margin: 30px 0;
 }
