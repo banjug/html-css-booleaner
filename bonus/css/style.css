@@ -18,7 +18,7 @@ body {
 
 /* questo restringe la colonna di contenuto e la centra nella pagina  */
 main, footer, .logo-container {
-    width: 1000px;
+    width: 1200px;
     margin: 0 auto;
 }
 
@@ -40,7 +40,6 @@ main, footer, .logo-container {
 
 .sottotitolo {
     font-size: 20px;
-    margin: 0;
     color: gray;
 }
 
@@ -55,14 +54,16 @@ main, footer, .logo-container {
     font-weight: lighter;
 }
 
+/* sezione foto  */
+
 .sezione-foto, .img-articolo {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 /* sezione articolo  */
 
-.sezione-articolo {
-    margin-bottom: 40px;
+.sezione-articolo, .tabella, ul{
+    margin: 30px 0;
 }
 
 .evidenziato {
@@ -74,7 +75,6 @@ main, footer, .logo-container {
 
 /* border-spacing toglie i bordi bianchi tra le celle */
 border-spacing: 0;
-margin: 30px 0;
 }
 
 .intestazione-tabella {
