@@ -4,6 +4,7 @@
     height: 100px;
     background-image: url('../img/pattern.png');
     background-color: rgb(78, 160, 255);
+    background-size: 20%;
 }
 
 #logo {
